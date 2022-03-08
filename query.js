@@ -72,9 +72,7 @@ export const feedblocks = queryFetch(
     const res = await fetch("https://fj-lite-node.herokuapp.com/graphql", {
       method: "POST",
       mode: "no-cors",
-      headers: {
-        "Content-type": "application/json"
-      },
+   
       body: JSON.stringify({
         query: query,
       }),
@@ -93,9 +91,6 @@ export const feedblocks = queryFetch(
     const res = await fetch("https://fj-lite-node.herokuapp.com/graphql", {
       method: "POST",
       mode: "no-cors",
-      headers: {
-        "Content-type": "application/json"
-      },
       body: JSON.stringify({
         query: query,
       }),
@@ -111,9 +106,7 @@ export const feedblocks = queryFetch(
     const res = await fetch("https://fj-lite-node.herokuapp.com/graphql", {
       method: "POST",
       mode: "no-cors",
-      headers: {
-        "Content-type": "application/json"
-      },
+  
       body: JSON.stringify({
         query: `mutation {
             createFeedback(payload: {
