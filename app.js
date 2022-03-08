@@ -1,4 +1,4 @@
-import { Feedjet } from "https://cdn.jsdelivr.net/gh/celebritydeveloper/widget@1.0.0/Feedjet.js";
+import { Feedjet } from "https://cdn.jsdelivr.net/gh/celebritydeveloper/widget/Feedjet.js";
 // import { feedblocks } from './query.js'
 
 //the feedblocks data from the graphQL server
