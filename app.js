@@ -1,4 +1,4 @@
-import { Feedjet } from "https://res.cloudinary.com/spire-tech/raw/upload/v1646754471/widget-cdn/Feedjet_oi8s81.js";
+import { Feedjet } from "https://cdn.jsdelivr.net/gh/celebritydeveloper/widget@1.0.0/Feedjet.js";
 // import { feedblocks } from './query.js'
 
 //the feedblocks data from the graphQL server
